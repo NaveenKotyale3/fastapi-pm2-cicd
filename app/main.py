@@ -8,4 +8,4 @@ def home():
 
 @app.get("/version")
 def version():
-    return {"version": "v2"}
+    return {"version": "v3"}
