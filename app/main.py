@@ -8,7 +8,7 @@ def home():
 
 @app.get("/version")
 def version():
-    return {"version": "v3"}
+    return {"version": "v4"}
 
 
 @app.get("/health")
